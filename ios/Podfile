@@ -79,6 +79,14 @@ target 'mealsApp' do
 
   pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
 
+  pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
+
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
+  pod 'RNScreens', :path => '../node_modules/react-native-screens'
+
+  pod 'react-native-safe-area-context', :path => '../node_modules/react-native-safe-area-context'
+
   target 'mealsAppTests' do
     inherit! :complete
     # Pods for testing
