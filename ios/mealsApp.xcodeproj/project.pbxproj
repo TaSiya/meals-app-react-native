@@ -20,6 +20,10 @@
 		7D6271DFCD167D36FAECD980 /* libPods-mealsApp-mealsAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446C49B0DC64B3D4659EA42A /* libPods-mealsApp-mealsAppTests.a */; };
 		80321883C3F082E2ECEE91D8 /* libPods-mealsApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D1302D428AA676EEE6B6D6 /* libPods-mealsApp-tvOSTests.a */; };
 		EA9BA636BE66C8A92AE4A643 /* libPods-mealsApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAB67760AC8517001729986 /* libPods-mealsApp.a */; };
+		A0A083BB58FE45BFA7D713A4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EC20D08C0D534CC688A74D5E /* icon.png */; };
+		B147D629DC06499BB444B653 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = E3887C79590D4F099B5D8682 /* splash.png */; };
+		3C6F6175B345453191ABFC8B /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E90D6A2636B84205913EA3D5 /* OpenSans-Bold.ttf */; };
+		C5A8CE34F2CF48CEAEDC0D16 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFA534EA3132407D8845C7D7 /* OpenSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,10 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		ED65BC0B22F765926419DC28 /* Pods-mealsApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealsApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-mealsApp-tvOSTests/Pods-mealsApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC20D08C0D534CC688A74D5E /* icon.png */ = {isa = PBXFileReference; name = "icon.png"; path = "../assets/fonts/icon.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E3887C79590D4F099B5D8682 /* splash.png */ = {isa = PBXFileReference; name = "splash.png"; path = "../assets/fonts/splash.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E90D6A2636B84205913EA3D5 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; name = "OpenSans-Bold.ttf"; path = "../assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AFA534EA3132407D8845C7D7 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; name = "OpenSans-Regular.ttf"; path = "../assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +189,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				6916336AF3261AF9E6DFC91D /* Pods */,
+				D413FB8DE99F4A1B85F59541 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +206,18 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		D413FB8DE99F4A1B85F59541 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				EC20D08C0D534CC688A74D5E /* icon.png */,
+				E3887C79590D4F099B5D8682 /* splash.png */,
+				E90D6A2636B84205913EA3D5 /* OpenSans-Bold.ttf */,
+				AFA534EA3132407D8845C7D7 /* OpenSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -340,6 +361,10 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				A0A083BB58FE45BFA7D713A4 /* icon.png in Resources */,
+				B147D629DC06499BB444B653 /* splash.png in Resources */,
+				3C6F6175B345453191ABFC8B /* OpenSans-Bold.ttf in Resources */,
+				C5A8CE34F2CF48CEAEDC0D16 /* OpenSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
