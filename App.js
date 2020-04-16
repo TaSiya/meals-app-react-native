@@ -1,17 +1,14 @@
 import React, {useEffect} from 'react';
 import {View, Text} from 'react-native';
-import SplashScreen from 'react-native-splash-screen'
+import SplashScreen from 'react-native-splash-screen';
+import MealsNavigator from './navigation/MealsNavigator';
 
 const App = () => {
   useEffect(() => {
     SplashScreen.hide();
   });
 
-  return (
-    <View>
-      <Text>d</Text>
-    </View>
-  );
+  return <MealsNavigator />;
 };
 
 export default App;
